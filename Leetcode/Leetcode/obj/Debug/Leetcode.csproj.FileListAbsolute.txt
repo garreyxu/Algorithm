@@ -1,0 +1,6 @@
+C:\Users\garre\Source\Repos\Algorithm\Leetcode\Leetcode\bin\Debug\Leetcode.exe.config
+C:\Users\garre\Source\Repos\Algorithm\Leetcode\Leetcode\obj\Debug\Leetcode.csprojResolveAssemblyReference.cache
+C:\Users\garre\Source\Repos\Algorithm\Leetcode\Leetcode\bin\Debug\Leetcode.exe
+C:\Users\garre\Source\Repos\Algorithm\Leetcode\Leetcode\bin\Debug\Leetcode.pdb
+C:\Users\garre\Source\Repos\Algorithm\Leetcode\Leetcode\obj\Debug\Leetcode.exe
+C:\Users\garre\Source\Repos\Algorithm\Leetcode\Leetcode\obj\Debug\Leetcode.pdb
