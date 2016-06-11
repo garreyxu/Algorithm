@@ -6,13 +6,12 @@ namespace Leetcode
     {
         public static void Main()
         {
-            int[] nums = {2,1};
+            int[] nums = { 3, 2, 4 };
+            int target = 6;
             
-            MoveZeroes mz = new MoveZeroes();
-
-            mz.Move(nums);
-
-            foreach (int item in nums)
+            TwoSum ts = new TwoSum();
+            
+            foreach (int item in ts.GetTwoSum(nums, target))
             {
                 Console.WriteLine(item);
             }
