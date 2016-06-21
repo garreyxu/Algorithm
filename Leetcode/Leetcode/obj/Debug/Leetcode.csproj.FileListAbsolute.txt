@@ -10,3 +10,9 @@ C:\Users\GarreYxU\Source\Repos\Algorithm\Leetcode\Leetcode\obj\Debug\Leetcode.pd
 C:\Users\GarreYxU\Source\Repos\Algorithm\Leetcode\Leetcode\bin\Debug\Leetcode.exe
 C:\Users\GarreYxU\Source\Repos\Algorithm\Leetcode\Leetcode\bin\Debug\Leetcode.pdb
 C:\Users\GarreYxU\Source\Repos\Algorithm\Leetcode\Leetcode\obj\Debug\Leetcode.csprojResolveAssemblyReference.cache
+C:\Users\ptg\Source\Repos\Algorithm\Leetcode\Leetcode\bin\Debug\Leetcode.exe.config
+C:\Users\ptg\Source\Repos\Algorithm\Leetcode\Leetcode\obj\Debug\Leetcode.exe
+C:\Users\ptg\Source\Repos\Algorithm\Leetcode\Leetcode\obj\Debug\Leetcode.pdb
+C:\Users\ptg\Source\Repos\Algorithm\Leetcode\Leetcode\bin\Debug\Leetcode.exe
+C:\Users\ptg\Source\Repos\Algorithm\Leetcode\Leetcode\bin\Debug\Leetcode.pdb
+C:\Users\ptg\Source\Repos\Algorithm\Leetcode\Leetcode\obj\Debug\Leetcode.csprojResolveAssemblyReference.cache

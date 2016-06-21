@@ -6,14 +6,18 @@ namespace Leetcode
     {
         public static void Main()
         {
-            int[] nums = { 3, 2, 4 };
-            int target = 6;
+            CombinationSum3 cs = new CombinationSum3();
+
+            var result = cs.GetCombinationSum3(3, 9);
             
-            TwoSum ts = new TwoSum();
             
-            foreach (int item in ts.GetTwoSum(nums, target))
+            foreach (var items in result)
             {
-                Console.WriteLine(item);
+                foreach (var item in items)
+                {
+                    Console.WriteLine(item.ToString());
+                }
+                Console.WriteLine("-------------------------------------------------");
             }
             Console.ReadLine();
         }
