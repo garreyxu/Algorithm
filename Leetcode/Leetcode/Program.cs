@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Leetcode
 {
@@ -6,15 +7,21 @@ namespace Leetcode
     {
         public static void Main()
         {
-            MinSubArrayLen msal = new MinSubArrayLen();
+            FourSum sf = new FourSum();
 
-            int[] nums = {2, 3, 1, 2, 4, 3};
-            int s = 7;
+            int[] nums = {-3,-2,-1,0,0,1,2,3};
+            int target = 0;
 
-            var result = msal.GetMinSubArrayLen(s, nums);
-            
-            Console.WriteLine(result);
-                
+            var result = sf.GetFourSum(nums, target);
+
+            foreach (IList<int> list in result)
+            {
+                foreach (var item in list)
+                {
+                    Console.Write(item+", ");
+                }
+                Console.WriteLine(" ");
+            }
             Console.ReadLine();
         }
         
