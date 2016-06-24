@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 
 namespace Leetcode
 {
@@ -7,20 +6,20 @@ namespace Leetcode
     {
         public int[] GetTwoSum(int[] nums, int target)
         {
-            Dictionary<int, int> num = new Dictionary<int, int>();
-            int[] rst = new int[2];
+            Dictionary<int, int> dic = new Dictionary<int, int>();
+
             for (int i = 0; i < nums.Length; i++)
             {
-                num.Add(i, nums[i]);
-            }
-
-            for (int i = 1; i < nums.Length; i++)
-            {
-                if (num.ContainsValue(target - num[i]))
+                if (dic.ContainsKey(target - nums[i]))
                 {
-                    rst[0] = i;
-                    rst[1] = num.FirstOrDefault(x => x.Value.Equals(target - num[i])).Key;
-                    return rst;
+                    return new[] { dic[target - nums[i]], i };
+                }
+                else
+                {
+                    if (!dic.ContainsKey(nums[i]))
+                    {
+                        dic.Add(nums[i], i);
+                    }
                 }
             }
             return null;

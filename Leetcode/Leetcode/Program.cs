@@ -6,19 +6,15 @@ namespace Leetcode
     {
         public static void Main()
         {
-            CombinationSum3 cs = new CombinationSum3();
+            MinSubArrayLen msal = new MinSubArrayLen();
 
-            var result = cs.GetCombinationSum3(3, 9);
+            int[] nums = {2, 3, 1, 2, 4, 3};
+            int s = 7;
+
+            var result = msal.GetMinSubArrayLen(s, nums);
             
-            
-            foreach (var items in result)
-            {
-                foreach (var item in items)
-                {
-                    Console.WriteLine(item.ToString());
-                }
-                Console.WriteLine("-------------------------------------------------");
-            }
+            Console.WriteLine(result);
+                
             Console.ReadLine();
         }
         
