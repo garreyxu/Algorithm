@@ -7,22 +7,23 @@ namespace Leetcode
     {
         public static void Main()
         {
-            FourSum sf = new FourSum();
+            NQueen nq = new NQueen();
+            int n = 20;
 
-            int[] nums = {-3,-2,-1,0,0,1,2,3};
-            int target = 0;
+            string[,] result = new string[n,n];
 
-            var result = sf.GetFourSum(nums, target);
+            nq.GetNQueen(n, result);
 
-            foreach (IList<int> list in result)
+            for (int i = 0; i < n; i++)
             {
-                foreach (var item in list)
+                for (int j = 0; j < n; j++)
                 {
-                    Console.Write(item+", ");
+                    Console.Write(result[i,j] + " ");
                 }
                 Console.WriteLine(" ");
             }
             Console.ReadLine();
+
         }
         
     }
