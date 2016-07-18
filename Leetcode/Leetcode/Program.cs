@@ -7,21 +7,15 @@ namespace Leetcode
     {
         public static void Main()
         {
-            NQueen nq = new NQueen();
-            int n = 20;
+            int[] nums = {0,1,3};
+            
 
-            string[,] result = new string[n,n];
+            MissingNumber mn = new MissingNumber(nums);
 
-            nq.GetNQueen(n, result);
+            var result = mn.GetMissingNumber();
 
-            for (int i = 0; i < n; i++)
-            {
-                for (int j = 0; j < n; j++)
-                {
-                    Console.Write(result[i,j] + " ");
-                }
-                Console.WriteLine(" ");
-            }
+            Console.WriteLine("Missing Number is: " + result);
+
             Console.ReadLine();
 
         }
