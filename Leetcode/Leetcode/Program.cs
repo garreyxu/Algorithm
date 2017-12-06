@@ -7,16 +7,6 @@ namespace Leetcode
     {
         public static void Main()
         {
-            int[] nums = {0,1,3};
-            
-
-            
-
-            var result = mn.GetMissingNumber();
-
-            Console.WriteLine("Missing Number is: " + result);
-
-            Console.ReadLine();
 
         }
         
