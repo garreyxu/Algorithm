@@ -46,7 +46,6 @@
     <Compile Include="CombinationSum3.cs" />
     <Compile Include="FourSum.cs" />
     <Compile Include="MinSubArrayLen.cs" />
-    <Compile Include="MissingNumber.cs" />
     <Compile Include="MoveZeroes.cs" />
     <Compile Include="NQueen.cs" />
     <Compile Include="Program.cs" />

@@ -10,7 +10,7 @@ namespace Leetcode
             int[] nums = {0,1,3};
             
 
-            MissingNumber mn = new MissingNumber(nums);
+            
 
             var result = mn.GetMissingNumber();
 
