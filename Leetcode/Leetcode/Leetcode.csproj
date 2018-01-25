@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CombinationSum3.cs" />
+    <Compile Include="CutOffTreesForGolfEvent.cs" />
     <Compile Include="FourSum.cs" />
     <Compile Include="MinSubArrayLen.cs" />
     <Compile Include="MoveZeroes.cs" />

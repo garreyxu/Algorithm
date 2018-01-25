@@ -16,3 +16,9 @@ C:\Users\ptg\Source\Repos\Algorithm\Leetcode\Leetcode\obj\Debug\Leetcode.pdb
 C:\Users\ptg\Source\Repos\Algorithm\Leetcode\Leetcode\bin\Debug\Leetcode.exe
 C:\Users\ptg\Source\Repos\Algorithm\Leetcode\Leetcode\bin\Debug\Leetcode.pdb
 C:\Users\ptg\Source\Repos\Algorithm\Leetcode\Leetcode\obj\Debug\Leetcode.csprojResolveAssemblyReference.cache
+C:\Users\gxu\Source\Repos\Algorithm\Leetcode\Leetcode\bin\Debug\Leetcode.exe.config
+C:\Users\gxu\Source\Repos\Algorithm\Leetcode\Leetcode\bin\Debug\Leetcode.exe
+C:\Users\gxu\Source\Repos\Algorithm\Leetcode\Leetcode\bin\Debug\Leetcode.pdb
+C:\Users\gxu\Source\Repos\Algorithm\Leetcode\Leetcode\obj\Debug\Leetcode.csprojResolveAssemblyReference.cache
+C:\Users\gxu\Source\Repos\Algorithm\Leetcode\Leetcode\obj\Debug\Leetcode.exe
+C:\Users\gxu\Source\Repos\Algorithm\Leetcode\Leetcode\obj\Debug\Leetcode.pdb
