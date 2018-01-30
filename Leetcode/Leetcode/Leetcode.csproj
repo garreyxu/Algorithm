@@ -47,6 +47,7 @@
     <Compile Include="CutOffTreesForGolfEvent.cs" />
     <Compile Include="FourSum.cs" />
     <Compile Include="MinSubArrayLen.cs" />
+    <Compile Include="MissingNumbers.cs" />
     <Compile Include="MoveZeroes.cs" />
     <Compile Include="NQueen.cs" />
     <Compile Include="Program.cs" />
