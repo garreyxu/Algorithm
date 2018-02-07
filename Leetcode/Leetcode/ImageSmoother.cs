@@ -17,8 +17,8 @@ namespace Leetcode
 
         public static void SelectAndExecuteCalculation(int[,] M, int[,] ans)
         {
-            int rowLen = M.GetLength(0);
-            int colLen = M.GetLength(1);
+            int rowLen = M.GetLength(1);
+            int colLen = M.GetLength(0);
 
             if (rowLen < 2 && colLen < 2)
             {
@@ -108,7 +108,7 @@ namespace Leetcode
                 ans[0, i] = (M[0, i] + M[0, i - 1] + M[0, i + 1]) / 3;
             }
             ans[0, 0] = (M[0, 0] + M[0, 1]) / 2;
-            ans[0, colLen] = (M[0, colLen] + M[0, colLen - 1]) / 2;
+            ans[0, colLen-1] = (M[0, colLen-1] + M[0, colLen - 2]) / 2;
         }
 
         public static void WriteAnsIfInputIsOneCol(int[,] M, int[,] ans)
@@ -117,10 +117,10 @@ namespace Leetcode
 
             for (int i = 1; i < rowLen - 1; i++)
             {
-                ans[i, 0] = (M[i, 0] + M[i - 1, 0] + M[i - 1, 1] + M[i, 1] + M[i - 1, 1] + M[i + 1, 0]) / 6;
+                ans[i, 0] = (M[i, 0] + M[i - 1, 0] + M[i + 1, 0]) / 3;
             }
             ans[0, 0] = (M[0, 0] + M[1, 0]) / 2;
-            ans[rowLen, 0] = (M[rowLen, 0] + M[rowLen - 1, 0]) / 2;
+            ans[rowLen-1, 0] = (M[rowLen-1, 0] + M[rowLen - 2, 0]) / 2;
 
         }
     }
