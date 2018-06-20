@@ -54,6 +54,7 @@
     <Compile Include="NQueen.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Subsets.cs" />
     <Compile Include="TwoSum.cs" />
   </ItemGroup>
   <ItemGroup>
