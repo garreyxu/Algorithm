@@ -18,7 +18,6 @@ namespace Leetcode
                 foreach (var s in r)
                 {
                     Console.Write(s.ToString());
-                        Console.Write(",");
                 }
                 Console.Write("]");
             }

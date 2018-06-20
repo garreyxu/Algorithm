@@ -22,5 +22,4 @@ C:\Users\gxu\Source\Repos\Algorithm\Leetcode\Leetcode\bin\Debug\Leetcode.pdb
 C:\Users\gxu\Source\Repos\Algorithm\Leetcode\Leetcode\obj\Debug\Leetcode.csprojResolveAssemblyReference.cache
 C:\Users\gxu\Source\Repos\Algorithm\Leetcode\Leetcode\obj\Debug\Leetcode.exe
 C:\Users\gxu\Source\Repos\Algorithm\Leetcode\Leetcode\obj\Debug\Leetcode.pdb
-C:\Users\gxu\Source\Repos\Algorithm\Leetcode\Leetcode\obj\Debug\Leetcode.csproj.CoreCompileInputs.cache
 C:\Users\garre\Source\Repos\Algorithm\Leetcode\Leetcode\obj\Debug\Leetcode.csproj.CoreCompileInputs.cache

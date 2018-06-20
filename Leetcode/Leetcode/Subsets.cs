@@ -10,7 +10,7 @@ namespace Leetcode
     {
         public static IList<IList<int>> GetSubsets(int[] nums)
         {
-            
+
             IList<IList<int>> results = new List<IList<int>>();
 
             if (nums == null)
@@ -52,9 +52,9 @@ namespace Leetcode
                 Helper(results, subset, nums, i + 1);
                 //3. back tracking
                 //List<>'s index start from 1;
-                subset.Remove(subset.Count);
+                subset.RemoveAt(subset.Count - 1);
             }
-            
+
             //return;
         }
     }
